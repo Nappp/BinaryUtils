@@ -3,6 +3,9 @@ A utility helps manipulating binary bits
 
 --
 
-* [Java Version](./Java)
-*  JavaScript Version
-*  C Version
+| Version | Status |
+| :---: | :---: |
+| Java | [✓](./Java) |
+| JavaScript | [✓](./JavaScript) |
+| C | [C]() |
+

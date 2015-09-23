@@ -1,42 +1,40 @@
-# Java Version
+# JavaScript Version
 -
 
 ###Constructor
 
-```java
-BinaryUtils bu = new BinaryUtils(236)
+```javascript
+var bu = new BinaryUtils(236)
 //or
-BinaryUtils bu = new BinaryUtils("11101100")
+var bu = new BinaryUtils("11101100")
 ```
 
 ###Get the first N bits
 
-```java
+```javascript
 bu.prefix(N)
 ```
 
 ###Get the Middle N bits
 
-```java
+```javascript
 bu.middle(beginIndex, N)
 ```
 
 ###Get the Last N bits
 
-```java
+```javascript
 bu.suffix(beginIndex, N)
 ```
 
 ###Set the Middle N bits to B(decimal)
 
-```java
+```javascript
 bu.replace(beginIndex, N, B)
 ```
 ###Print in Binary form
 
-```java
+```javascript
 bu.print()
 
-//or use the static method
-BinaryUtils.print(N)
 ```
